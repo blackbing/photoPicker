@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link href="stylesheet/photoPicker.css" rel="stylesheet" type="text/css" >
+    <title>photoPicker</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="http://busterjs.org/releases/latest/buster-test.js"></script>
+    <script type="text/javascript" src="http://busterjs.org/examples/strftime/strftime.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="http://documentcloud.github.com/backbone/backbone-min.js"></script>
+    <script type="text/javascript" src="javascript/vender/mustache.js"></script>
+
+
+    <link href="javascript/vender/antiscroll/antiscroll.css" rel="stylesheet" type="text/css" >
+
+    <script>
+    var require = {
+      "baseUrl":'javascript',
+      paths: {
+        "jquery-mousewheel":'vender/jquery-mousewheel/jquery.mousewheel',
+        "antiscroll":'vender/antiscroll/antiscroll'
+      }
+    }
+    </script>
+    <script data-main="main-test" src="http://requirejs.org/docs/release/1.0.7/minified/require.js"></script>
+  </body>
+</html>
+

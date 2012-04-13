@@ -1,0 +1,21 @@
+#photoPicker{
+}
+#photoPicker ul{
+  margin:0px;
+  padding:3px;
+}
+#photoPicker ul li{
+  float:left;
+  display:inline-block;
+  list-style: none;
+  cursor: pointer;
+  width:100px;
+  height:100px;
+}
+#photoPicker ul li img{
+  width:100%;
+  height:100%;
+}
+#photoPicker ul li.selected{
+  outline: 3px dotted grey
+}
