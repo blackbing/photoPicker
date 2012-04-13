@@ -10,3 +10,7 @@ It need to run on server, you can simply use:
 and open
 
     http://localhost:8888
+
+###Build
+
+    ./build.sh
