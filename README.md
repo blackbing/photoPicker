@@ -1,3 +1,10 @@
+It is my initial project template. Based on AMD/RequireJS and CoffeeScript                                                                                                           
+                                                                                                                                                                                     
+###Dependency                                                                                                                                                                        
+* [jQuery](https://github.com/jquery/jquery)                                                                                                                                                                                                                                                              
+* [Backbone](http://documentcloud.github.com/backbone)
+* [RequireJS](http://requirejs.org)
+
 ###Compile CoffeeScript
 
     ./compileScript.sh
