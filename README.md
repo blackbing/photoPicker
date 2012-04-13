@@ -19,5 +19,6 @@ and open
     http://localhost:8888
 
 ###Build
+Based on [require/r.js](http://requirejs.org/docs/optimization.html)
 
     ./build.sh
